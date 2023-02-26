@@ -11,5 +11,24 @@ class AppColors {
   static const propheticSayingsColor = Color(0xFFDCDEEE);
   static const shareAppColor = Color(0xFFE9DEC6);
   static const aboutAppColor = Color(0xFFE3EDE4);
+  static const lightGreen = Color(0xFFDBF9E8);
+  static const dividerColor = Color(0xFFCAC4D0);
   static const transparent = Colors.transparent;
+  static const fillColors = [
+    Color(0xFFFFF6EA),
+    Color(0xFFFCE9E9),
+    Color(0xFFE6F1FC),
+    Color(0xFFDBF9E8),
+    Color(0xFFFFEFEE),
+    Color(0xFFE8FBFF),
+    Color(0xFFF8F0FF),
+    Color(0xFFFFE7C4),
+    Color(0xFFE3DEFF),
+    Color(0xFFF4D2D2),
+    Color(0xFFC9E1F6),
+    Color(0xFFF4E3CB),
+    Color(0xFFDFCDFA),
+    Color(0xFFBDE8DA),
+    Color(0xFFC6DAEC),
+  ];
 }

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:sahabul_azkar/screens/tasbih_counter/tasbih_counter_screen.dart';
+import 'package:sahabul_azkar/screens/bookmarks/bookmarks_screen.dart';
 
 import 'utils/app_colors.dart';
 
@@ -26,7 +26,7 @@ class _MyAppState extends State<MyApp> {
         }
       },
       child: MaterialApp(
-        debugShowCheckedModeBanner: true,
+        debugShowCheckedModeBanner: false,
         theme: ThemeData(
           colorScheme: ColorScheme(
               primary: AppColors.primary,
@@ -42,7 +42,10 @@ class _MyAppState extends State<MyApp> {
               brightness: Theme.of(context).brightness),
           fontFamily: 'roboto',
         ),
-        home: const TasbihCounterScreen(),
+        home: const BookmarksScreen(),
+        //home: const PropheticSayingsScreen(),
+        //home: const PropheticSayingsDetailScreen(),
+        //home: const TasbihCounterScreen(),
         //home: const HomeScreen(),
         //home: const LoginScreen(),
         //home: const SplashScreen(),

@@ -7,13 +7,11 @@ class TasbihCounterCard extends StatelessWidget {
   final GestureTapCallback onTap;
   final String title;
   final String description;
-  final Widget? trailingIcon;
   const TasbihCounterCard({
     Key? key,
     required this.onTap,
     required this.description,
     required this.title,
-    this.trailingIcon,
   }) : super(key: key);
 
   @override
@@ -28,6 +26,7 @@ class TasbihCounterCard extends StatelessWidget {
             ),
             child: ListTile(
                 horizontalTitleGap: 8,
+                contentPadding: const EdgeInsets.only(left: 7.0, right: 14.0),
                 title: Text(
                   title,
                   style: const TextStyle(
